@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif; /* 基本フォント */
+    line-height: 1.6;
+    color: #333; /* 基本テキストカラー */
+    background-color: #f8f8f8; /* 基本背景色 */
+    margin: 20px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  pre {
+    background-color: #f0f0f0; /* コードブロック背景色 */
+    border: 1px solid #ddd; /* コードブロックボーダー */
+    padding: 10px;
+    overflow-x: auto; /* 長いコードをスクロール可能にする */
+    font-family: monospace; /* 等幅フォント */
+    line-height: 1.4;
+  }
+  
+  code {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
